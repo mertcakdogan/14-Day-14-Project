@@ -1,0 +1,243 @@
+<!-- https://opensea.io/static/images/logos/opensea-logo.svg
+
+
+https://i.seadn.io/gcs/files/9b3993367af853569e8174efead8e6a4.png?auto=format&w=512
+https://i.seadn.io/gcs/files/1f3dae543849e6769de98fdb49780398.png?auto=format&w=512
+
+
+https://opensea.io/static/images/learn-center/what-is-nft.png
+https://opensea.io/static/images/learn-center/what-is-crypto-wallet.png
+https://opensea.io/static/images/learn-center/what-are-gas-fees.png
+https://opensea.io/static/images/learn-center/how-to-buy-nft.png                                                              I
+https://opensea.io/static/images/learn-center/how-to-create-nft.png -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 - Tailwind NFT Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body class="min-h-screen bg-gradient-to-r from-violet-500 to-fuchsia-500">
+    <div class="p-3">
+        <nav class="flex items-center gap-3 lg:space-x-7 relative">
+            <div class="flex items-center gap-2">
+                <img class="w-12" src="https://opensea.io/static/images/logos/opensea.svg" alt="">
+                <div class="text-2xl font-bold tracking-wider hidden lg:flex">Co NFT</div>
+            </div>
+            <div class="flex items-center space-x-2 bg-white p-3 rounded-full flex-1">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6 text-gray-600">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                </svg>
+
+                <input class="outline-none w-full" type="text" placeholder="NFT ara...">
+                <button class="bg-white text-black p-3 rounded-full">Ara</button>
+            </div>
+            <div class="hidden lg:flex space-x-3 text-lg font-semibold">
+                <div class="cursor-pointer tracking-wider">Product</div>
+                <div class="cursor-pointer tracking-wider">Pricing</div>
+                <div class="cursor-pointer tracking-wider">Info</div>
+                <div class="cursor-pointer tracking-wider">Trials</div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-8 h-8">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-8 h-8">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+                </svg>
+            </div>
+            <div id="burger" class="cursor-pointer lg:hidden ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-10 h-10 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </div>
+            <div id="menu"
+                class="hidden lg:hidden absolute top-[65px] z-50 space-y-4 text-white text-right w-full text-lg font-bold">
+                <div class="cursor-pointer tracking-wider p-2">Product</div>
+                <div class="cursor-pointer tracking-wider p-2">Pricing</div>
+                <div class="cursor-pointer tracking-wider p-2">Info</div>
+                <div class="cursor-pointer tracking-wider p-2">Trials</div>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <h1 class="text-3xl text-center p-3 font-bold my-5 lg:my-10">
+        NFT Dünyasını Keşfetmeye Hazır Mısın?
+    </h1>
+    <div>
+        <div class="flex space-x-3">
+            <div class="relative hover:translate-y-3 cursor-pointer">
+                <img src="https://i.seadn.io/gcs/files/9b3993367af853569e8174efead8e6a4.png?auto=format&w=512
+                " alt="" class="rounded-lg">
+                <div class="absolute bottom-3 left-3 text-white font-bold">
+                    NFT Fiyatlandırma
+
+                </div>
+            </div>
+            <div class="relative hover:translate-y-3 cursor-pointer">
+                <img src="https://i.seadn.io/gcs/files/1f3dae543849e6769de98fdb49780398.png?auto=format&w=512
+                " alt="" class="rounded-lg">
+                <div class="0">
+                    <p class="absolute bottom-3 left-3 text-white font-bold ">
+                        NFT Fiyatlandırma
+                    </p>
+                </div>
+            </div>
+            <div class="relative hover:translate-y-3 cursor-pointer">
+                <img src="https://i.seadn.io/gcs/files/9b3993367af853569e8174efead8e6a4.png?auto=format&w=512
+                " alt="" class="rounded-lg">
+                <div class="">
+                    <p class="absolute bottom-3 left-3 text-white font-bold ">
+                        NFT Fiyatlandırma
+                    </p>
+                </div>
+            </div>
+            <div class="relative hover:translate-y-3 cursor-pointer">
+                <img src="https://i.seadn.io/gcs/files/1f3dae543849e6769de98fdb49780398.png?auto=format&w=512
+                " alt="" class="rounded-lg">
+                <div class="">
+                    <p class="absolute bottom-3 left-3 text-white font-bold">
+                        NFT Fiyatlandırma
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex space-x-7 p-3 gap-5  my-5 lg:my-10">
+        <div class="font-bold text-xl cursor-pointer border-b border-black pb-2">
+            En Çok Satanlar
+        </div>
+        <div class="cursor-pointer font-bold text-xl text-gray-600 pb-2 border-b border-transparent">
+            En Uygunlar
+        </div>
+    </div>
+
+    <div class="w-full p-3 flex items-center gap-3 justify-center">
+        <div class="w-1/5 h-[250px] shadow-xl cursor-pointer border border-transparent hover:border-blue-800 rounded-lg">
+            <img class="rounded-lg" src="https://opensea.io/static/images/learn-center//what-is-nft.png" alt="">
+            <div class="py-2 px-1 tracking-wider">NFT'ye Ulaşma Yolları</div>
+        </div>
+        <div class="w-1/5 h-[250px] shadow-xl cursor-pointer border border-transparent hover:border-blue-800 rounded-lg">
+            <img class="rounded-lg" src="https://opensea.io/static/images/learn-center/what-is-crypto-wallet.png" alt="">
+            <div class="py-2 px-1 tracking-wider">NFT'ye Ulaşma Yolları</div>
+        </div>
+        <div class="w-1/5 h-[250px] shadow-xl cursor-pointer border border-transparent hover:border-blue-800 rounded-lg">
+            <img class="rounded-lg" src="https://opensea.io/static/images/learn-center/what-are-gas-fees.png" alt="">
+            <div class="py-2 px-1 tracking-wider">NFT'ye Ulaşma Yolları</div>
+        </div>
+        <div class="w-1/5 h-[250px] shadow-xl cursor-pointer border border-transparent hover:border-blue-800 rounded-lg">
+            <img class="rounded-lg" src="https://opensea.io/static/images/learn-center/how-to-buy-nft.png " alt="">
+            <div class="py-2 px-1 tracking-wider">NFT'ye Ulaşma Yolları</div>
+        </div>
+        <div class="w-1/5 h-[250px] shadow-xl cursor-pointer border border-transparent hover:border-blue-800 rounded-lg">
+            <img class="rounded-lg" src="https://opensea.io/static/images/learn-center/how-to-create-nft.png" alt="">
+            <div class="py-2 px-1 tracking-wider">NFT'ye Ulaşma Yolları</div>
+        </div>
+    </div>
+    <div class="w-full p-3 flex items-center gap-3 justify-center">
+        <div class="w-1/5 h-[250px] shadow-xl cursor-pointer border border-transparent hover:border-blue-800 rounded-lg">
+            <img class="rounded-lg" src="https://opensea.io/static/images/learn-center//what-is-nft.png" alt="">
+            <div class="py-2 px-1 tracking-wider">NFT'ye Ulaşma Yolları</div>
+        </div>
+        <div class="w-1/5 h-[250px] shadow-xl cursor-pointer border border-transparent hover:border-blue-800 rounded-lg">
+            <img class="rounded-lg" src="https://opensea.io/static/images/learn-center/what-is-crypto-wallet.png" alt="">
+            <div class="py-2 px-1 tracking-wider">NFT'ye Ulaşma Yolları</div>
+        </div>
+        <div class="w-1/5 h-[250px] shadow-xl cursor-pointer border border-transparent hover:border-blue-800 rounded-lg">
+            <img class="rounded-lg" src="https://opensea.io/static/images/learn-center/what-are-gas-fees.png" alt="">
+            <div class="py-2 px-1 tracking-wider">NFT'ye Ulaşma Yolları</div>
+        </div>
+        <div class="w-1/5 h-[250px] shadow-xl cursor-pointer border border-transparent hover:border-blue-800 rounded-lg">
+            <img class="rounded-lg" src="https://opensea.io/static/images/learn-center/how-to-buy-nft.png " alt="">
+            <div class="py-2 px-1 tracking-wider">NFT'ye Ulaşma Yolları</div>
+        </div>
+        <div class="w-1/5 h-[250px] shadow-xl cursor-pointer border border-transparent hover:border-blue-800 rounded-lg">
+            <img class="rounded-lg" src="https://opensea.io/static/images/learn-center/how-to-create-nft.png" alt="">
+            <div class="py-2 px-1 tracking-wider">NFT'ye Ulaşma Yolları</div>
+        </div>
+    </div>
+    <div class="w-full p-3 flex items-center gap-3 justify-center">
+        <div class="w-1/5 h-[250px] shadow-xl cursor-pointer border border-transparent hover:border-blue-800 rounded-lg">
+            <img class="rounded-lg" src="https://opensea.io/static/images/learn-center//what-is-nft.png" alt="">
+            <div class="py-2 px-1 tracking-wider">NFT'ye Ulaşma Yolları</div>
+        </div>
+        <div class="w-1/5 h-[250px] shadow-xl cursor-pointer border border-transparent hover:border-blue-800 rounded-lg">
+            <img class="rounded-lg" src="https://opensea.io/static/images/learn-center/what-is-crypto-wallet.png" alt="">
+            <div class="py-2 px-1 tracking-wider">NFT'ye Ulaşma Yolları</div>
+        </div>
+        <div class="w-1/5 h-[250px] shadow-xl cursor-pointer border border-transparent hover:border-blue-800 rounded-lg">
+            <img class="rounded-lg" src="https://opensea.io/static/images/learn-center/what-are-gas-fees.png" alt="">
+            <div class="py-2 px-1 tracking-wider">NFT'ye Ulaşma Yolları</div>
+        </div>
+        <div class="w-1/5 h-[250px] shadow-xl cursor-pointer border border-transparent hover:border-blue-800 rounded-lg">
+            <img class="rounded-lg" src="https://opensea.io/static/images/learn-center/how-to-buy-nft.png " alt="">
+            <div class="py-2 px-1 tracking-wider">NFT'ye Ulaşma Yolları</div>
+        </div>
+        <div class="w-1/5 h-[250px] shadow-xl cursor-pointer border border-transparent hover:border-blue-800 rounded-lg">
+            <img class="rounded-lg" src="https://opensea.io/static/images/learn-center/how-to-create-nft.png" alt="">
+            <div class="py-2 px-1 tracking-wider">NFT'ye Ulaşma Yolları</div>
+        </div>
+    </div>
+    <div class="w-full p-3 flex items-center gap-3 justify-center">
+        <div class="w-1/5 h-[250px] shadow-xl cursor-pointer border border-transparent hover:border-blue-800 rounded-lg">
+            <img class="rounded-lg" src="https://opensea.io/static/images/learn-center//what-is-nft.png" alt="">
+            <div class="py-2 px-1 tracking-wider">NFT'ye Ulaşma Yolları</div>
+        </div>
+        <div class="w-1/5 h-[250px] shadow-xl cursor-pointer border border-transparent hover:border-blue-800 rounded-lg">
+            <img class="rounded-lg" src="https://opensea.io/static/images/learn-center/what-is-crypto-wallet.png" alt="">
+            <div class="py-2 px-1 tracking-wider">NFT'ye Ulaşma Yolları</div>
+        </div>
+        <div class="w-1/5 h-[250px] shadow-xl cursor-pointer border border-transparent hover:border-blue-800 rounded-lg">
+            <img class="rounded-lg" src="https://opensea.io/static/images/learn-center/what-are-gas-fees.png" alt="">
+            <div class="py-2 px-1 tracking-wider">NFT'ye Ulaşma Yolları</div>
+        </div>
+        <div class="w-1/5 h-[250px] shadow-xl cursor-pointer border border-transparent hover:border-blue-800 rounded-lg">
+            <img class="rounded-lg" src="https://opensea.io/static/images/learn-center/how-to-buy-nft.png " alt="">
+            <div class="py-2 px-1 tracking-wider">NFT'ye Ulaşma Yolları</div>
+        </div>
+        <div class="w-1/5 h-[250px] shadow-xl cursor-pointer border border-transparent hover:border-blue-800 rounded-lg">
+            <img class="rounded-lg" src="https://opensea.io/static/images/learn-center/how-to-create-nft.png" alt="">
+            <div class="py-2 px-1 tracking-wider">NFT'ye Ulaşma Yolları</div>
+        </div>
+    </div>
+
+    <footer>
+       <div class="h-16 bg-purple-600 flex items-center justify-end p-3 my-5">
+         Mert Can Akdoğan © 2023 - Tüm Hakları Saklıdır.
+       </div>
+    </footer>
+
+    
+
+
+
+    <script>
+        const burger = document.getElementById('burger');
+        const menu = document.getElementById('menu');
+        const handleClick = () => {
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+            }
+        }
+        burger.addEventListener('click', handleClick);
+    </script>
+</body>
+
+</html>
