@@ -6,9 +6,9 @@
 
 ## Yol haritası
 
-- 1 . Gün - Tailwind CSS ile NFT projesi.
-- 2 . Gün - 
-- 3 . Gün - 
+- 1 . Gün - Tailwind CSS ile NFT Projesi.
+- 2 . Gün - NodeJs + React Chat Uygulaması.
+- 3 . Gün - Yemek Tarifi Uygulaması.
 - 4 . Gün - 
 - 5 . Gün - 
 - 6 . Gün - 
